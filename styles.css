@@ -1,0 +1,108 @@
+
+body{
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    color: rgb(104, 102, 97);
+}
+
+.main-board{
+    max-width: 650px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    padding:20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.omlette-pic{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main-heading{
+    text-transform: capitalize;
+    color: black;
+}
+
+.preparation-time{
+    background-color: #fff7fc;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.preparation-time h3{
+    color: #7c465d;
+}
+
+.preparation-time ul{
+    padding-left: 20px;
+    color: rgb(104, 102, 97);
+}
+
+.preparation-time li::marker{
+    color: #7c465d;
+}
+
+.preparation-time li{
+    padding: 10px;
+}
+.bold-text{
+    font-weight: bold;
+}
+
+.ingredients h2{
+    color: rgb(141, 81, 70);
+}
+
+.ingredients ul{
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.ingredients li::marker{
+    color: rgb(141, 81, 70);
+}
+
+.ingredients li{
+    padding: 10px;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.instructions h2{
+    color: rgb(141, 81, 70);
+}
+
+.instructions ol{
+    padding-left: 20px;
+}
+
+.instructions li{
+    padding: 5px;
+}
+
+.nutrition h2, th{
+    color: rgb(141, 81, 70);
+}
+
+.nutrition table {
+    width: 100%;
+}
+
+.nutrition td, th{
+   border-bottom: 1px solid rgb(190, 187, 187);
+   padding: 12px 0;
+   text-align: left;
+}
+.nutrition tr:last-child td, tr:last-child th{
+    border-bottom: none;
+}
